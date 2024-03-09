@@ -19,6 +19,8 @@ const refreshRouter = require("./controllers/refresh");
 const allowedOrigins = [
   "https://linkforge-backend.onrender.com",
   "https://linkforge.onrender.com",
+  "http://localhost:3000/",
+  "http://localhost:3001/",
 ];
 
 app.use(cors({ credentials: true, origin: allowedOrigins })); // Configure CORS with allowed origins
