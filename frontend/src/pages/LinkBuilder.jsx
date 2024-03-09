@@ -162,19 +162,19 @@ function LinkBuilder() {
             <div>
               <div className="stat-title">Your LinkForge is live:</div>
               <a
-                href={`http://localhost:3000/${auth.user.username}`}
+                href={`https://linkforge.onrender.com//${auth.user.username}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:text-accent"
               >
-                {`http://localhost:3000/${auth.user.username}`}
+                {`https://linkforge.onrender.com//${auth.user.username}`}
               </a>
             </div>
             <button
               type="button"
               onClick={() =>
                 navigator.clipboard.writeText(
-                  `http://localhost:3000/${auth.user.username}`,
+                  `https://linkforge.onrender.com//${auth.user.username}`,
                 )
               }
               className="btn btn-accent btn-md"
