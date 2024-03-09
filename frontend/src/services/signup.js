@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = '/api/signup';
+const baseUrl = 'https://linkforge-backend.onrender.com/api/signup';
 
 const signup = async (info) => {
   const response = await axios.post(baseUrl, info);

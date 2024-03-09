@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = '/api/logout';
+const baseUrl = 'https://linkforge-backend.onrender.com/api/logout';
 
 const logout = async () => {
   const config = {
