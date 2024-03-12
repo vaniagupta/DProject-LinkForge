@@ -13,6 +13,7 @@ import HomeLayout from './components/layouts/HomeLayout';
 import AdminLayout from './components/layouts/AdminLayout';
 
 function App() {
+  console.log(process.env.baseURL);
   return (
     <Routes>
       <Route element={<HomeLayout />}>

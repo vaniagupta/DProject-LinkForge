@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = '/api/users';
+const baseUrl = 'https://linkforge-backend.onrender.com/api/users';
 
 const getInfo = async (username) => {
   const response = await axios.get(`${baseUrl}/${username}`);

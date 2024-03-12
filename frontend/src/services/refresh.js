@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'https://linkforge-backend.onrender.com/api/refresh';
+const baseUrl = `https://linkforge-backend.onrender.com/api/refresh`;
 
 const refresh = async () => {
   const config = {

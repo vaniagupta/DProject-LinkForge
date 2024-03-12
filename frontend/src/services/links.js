@@ -1,4 +1,4 @@
-const baseUrl = 'https://linkforge-backend.onrender.com/api/links';
+const baseUrl = `https://linkforge-backend.onrender.com/api/links`;
 
 const add = async (newLink, axiosPrivate) => {
   const response = await axiosPrivate.post(baseUrl, newLink);
